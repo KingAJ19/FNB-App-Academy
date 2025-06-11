@@ -92,3 +92,8 @@ body {
 
 /* styling info box */
 
+#a.info-box {
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    
+}
