@@ -11,7 +11,7 @@
 
 
     <script>
-        addNumbers (5, 7);
+        document.getElementById("addition").innerHTML = addNumbers (10, 7);
 
         function changeText() {
             if(document.getElementById("heading").innerHTML == 'Javascript') {
@@ -22,7 +22,7 @@
         }
 
         function addNumbers (num1, num2) {
-            document.getElementById("addition").innerHTML = num1 + num2;
+            return num1 + num2;
         }
     </script>
 </body>
