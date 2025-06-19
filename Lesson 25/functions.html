@@ -7,15 +7,22 @@
 </head>
 <body>
     <h1 id="heading" onclick="changeText()">Javascript</h1>
+    <p id="addition"></p>
 
 
     <script>
+        addNumbers (5, 7);
+
         function changeText() {
             if(document.getElementById("heading").innerHTML == 'Javascript') {
                 document.getElementById("heading").innerHTML = 'Is Awesome.'
             } else {
                 document.getElementById("heading").innerHTML = 'Javascript'
             }
+        }
+
+        function addNumbers (num1, num2) {
+            document.getElementById("addition").innerHTML = num1 + num2;
         }
     </script>
 </body>
