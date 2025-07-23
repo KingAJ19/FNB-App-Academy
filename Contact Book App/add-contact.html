@@ -42,12 +42,16 @@
             .then(function(data){
                 if(data == "1"){
                     alert("Contact added!");
-                    //link to homepage
+                    homeLink();
                 } else {
                     alert(data);
-                    //link to homepage
+                    homeLink();
                 }
             })
+        }
+
+        function homeLink(){
+            window.open("index.html", "_self");
         }
     </script>
 </body>
