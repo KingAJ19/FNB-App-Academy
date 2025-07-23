@@ -58,6 +58,12 @@
 
         function displayOutput(data){
             avatarImg = `<img src="${rootPath}/controller/uploads/${data[0].avatar}" width="200"`
+
+            document.getElementById("avatarImage").innerHTML = avatarImg;
+            document.getElementById("firstname").innerHTML = data[0].firstname;
+            document.getElementById("lastname").innerHTML = data[0].lastname;
+            document.getElementById("mobile").innerHTML = data[0].mobile;
+            document.getElementById("email").innerHTML = data[0].email;
         }
     </script>
 </body>
